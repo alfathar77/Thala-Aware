@@ -1,0 +1,32 @@
+name: thala_aware
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # --- Package Navigasi & UI ---
+  introduction_screen: ^3.1.12
+  cupertino_icons: ^1.0.2
+
+  # --- Package Koneksi ke XAMPP ---
+  http: ^1.2.0
+  
+  # --- Package Format Tanggal ---
+  intl: ^0.19.0
+
+  # --- Package Penyimpanan Lokal ---
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
